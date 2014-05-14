@@ -1,0 +1,66 @@
+common-pkgs:
+  pkg.installed:
+    - pkgs:
+      - cabal-install
+      - dmenu
+      - dwm
+      - dzen2
+      - emacs24-nox
+      - firefox
+      - fop
+      - git
+      - gnupg
+      - gnupg-agent
+      - htop
+      - imagemagick
+      - libc6-dev
+      - libghc-xmonad-contrib-dev
+      - libghc-xmonad-contrib-doc
+      - libghc-xmonad-dev
+      - libghc-xmonad-doc
+      - libgtk-3-dev
+      - libmemcached-dev
+      - libmysql++-dev
+      - libncurses5-dev
+      - libncursesw5-dev
+      - libssl-dev
+      - libxml++2.6-dev
+      - libxml2-dev
+      - libxml2-utils
+      - libxslt1-dev
+      - links
+      - memcached
+      - mercurial
+      - mpd
+      - ncmpcpp
+      - ncurses-base
+      - ncurses-bin
+      - network-manager-openvpn-gnome
+      - nload
+      - openjdk-7-jdk
+      - openssl
+      - pidgin
+      - python-dev
+      - python-pip
+      - quodlibet
+      - salt-minion
+      - seahorse
+      - tcplay
+      - traceroute
+      - trayer
+      - vagrant
+      - vim
+      - xmobar
+      - xmonad
+      - xscreensaver
+      - xscreensaver-gl
+      - xscreensaver-gl-extra
+      - xserver-xorg-input-synaptics
+      - xsltproc
+      - zsh
+
+common-removals:
+  pkg.removed:
+    - pkgs:
+      - empathy
+      - empathy-common
