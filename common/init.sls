@@ -13,6 +13,7 @@ common-pkgs:
       - gnupg-agent
       - htop
       - imagemagick
+      - ipython
       - libc6-dev
       - libghc-xmonad-contrib-dev
       - libghc-xmonad-contrib-doc
@@ -64,3 +65,20 @@ common-removals:
     - pkgs:
       - empathy
       - empathy-common
+      - xserver-xorg-input-wacom
+      - xserver-xorg-video-ati
+      - xserver-xorg-video-cirrus
+      - xserver-xorg-video-glamoregl
+      - xserver-xorg-video-mach64
+      - xserver-xorg-video-neomagic
+      - xserver-xorg-video-nouveau
+      - xserver-xorg-video-openchrome
+      - xserver-xorg-video-qxl
+      - xserver-xorg-video-r128
+      - xserver-xorg-video-radeon
+      - xserver-xorg-video-s3
+      - xserver-xorg-video-savage
+      - xserver-xorg-video-siliconmotion
+      - xserver-xorg-video-sisusb
+      - xserver-xorg-video-trident
+      - xserver-xorg-video-vmware
